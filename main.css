@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap");
+
+body {
+  background-color: #03002b;
+  color: #c6c6c7;
+  font-family: "Roboto mono";
+}
+
+nav {
+  background-color: #110c50;
+}
+
+.card {
+  background-color: #1b165c;
+}
+
+.card-header {
+  background-color: #110c50;
+}
+
+.form-control {
+  background-color: #110c50;
+  color: lightgray;
+}
+
+
+
+input[type=email]::placeholder {
+  color: white;
+}
