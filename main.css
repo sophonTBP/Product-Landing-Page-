@@ -5,7 +5,9 @@ body {
   color: #c6c6c7;
   font-family: "Roboto mono";
 }
-
+.dummy{
+  display: flex;
+}
 nav {
   background-color: #110c50;
 }
@@ -27,4 +29,12 @@ nav {
 
 input[type=email]::placeholder {
   color: white;
+}
+
+
+
+@media (max-width: 650px) {
+  body {
+    margin-top: 0;
+  }
 }
